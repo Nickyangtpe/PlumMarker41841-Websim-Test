@@ -167,6 +167,40 @@ body {
   text-align: center;
 }
 
+/* Latest Videos Section */
+#latest .video-card {
+  background: linear-gradient(135deg, #f1f8e9 0%, #dcedc8 100%);
+  border-radius: 20px;
+  padding: 1rem;
+  transition: transform 0.3s var(--animation-timing);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#latest .video-grid {
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#latest .video-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+#latest .video-wrapper {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#latest h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: var(--text-color);
+  text-align: center;
+}
+
 /* Social Links */
 .social-links {
   display: flex;
